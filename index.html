@@ -119,6 +119,27 @@
             }
         }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17988414814"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-17988414814');
+    </script>
+
+    <script>
+        function reportarConversao() {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17988414814/dxFdCO3J04EcEN7axYFD',
+                'value': 1.0,
+                'currency': 'BRL'
+            });
+        }
+    </script>
+
 </head>
 
 <body>
@@ -133,12 +154,12 @@
                 <nav class="actions" aria-label="Atalhos de contato">
                     <a class="chip"
                         href="https://wa.me/5579981151149?text=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição."
-                        target="_blank" rel="noopener">
+                        target="_blank" rel="noopener" onclick="reportarConversao();">
                         <i class="fa-brands fa-whatsapp"></i> WhatsApp
                     </a>
 
                     <a class="chip"
-                        href="mailto:juliabmendonca.adv@gmail.com?subject=Cobranças no plano de saúde&body=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição.">
+                        href="mailto:juliabmendonca.adv@gmail.com?subject=Cobranças no plano de saúde&body=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição." onclick="reportarConversao();">
                         <i class="fa-solid fa-envelope"></i> E-mail
                     </a>
                 </nav>
@@ -159,8 +180,9 @@
                 </p>
 
                 <div class="cta-row">
-                    <a class="btn btn-primary" href="https://wa.me/5579981151149?text=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição." target="_blank"
-                        rel="noopener">
+                    <a class="btn btn-primary"
+                        href="https://wa.me/5579981151149?text=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição."
+                        target="_blank" rel="noopener" onclick="reportarConversao();">
                         <i class="fa-brands fa-whatsapp"></i> Quero falar no WhatsApp
                     </a>
                 </div>
@@ -219,12 +241,12 @@
                             ATENDIMENTOS EM TODO BRASIL</h3>
                         <a class="contact-link"
                             href="https://wa.me/5579981151149?text=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição."
-                            target="_blank" rel="noopener">
+                            target="_blank" rel="noopener" onclick="reportarConversao();">
                             <i class="fa-brands fa-whatsapp"></i> WhatsApp
                         </a>
 
                         <a class="contact-link"
-                            href="mailto:juliabmendonca.adv@gmail.com?subject=Cobranças no plano de saúde&body=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição.">
+                            href="mailto:juliabmendonca.adv@gmail.com?subject=Cobranças no plano de saúde&body=Olá, gostaria de verificar se as coparticipações cobradas no meu plano de saúde estão em conformidade com os limites fixados e se seria viável a restituição." onclick="reportarConversao();">
                             <i class="fa-solid fa-envelope"></i> E-mail
                         </a>
                     </div>
